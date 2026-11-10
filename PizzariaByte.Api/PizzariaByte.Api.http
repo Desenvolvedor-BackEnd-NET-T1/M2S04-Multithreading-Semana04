@@ -1,0 +1,21 @@
+@api = http://localhost:5227
+
+GET {{api}}/api/pizzas-sincrono
+
+###
+GET {{api}}/api/pizzas-sincrono/1
+
+###
+POST {{api}}/api/pizzas-sincrono
+Content-Type: application/json
+
+{ "sabor": "Frango com catupiry", "preco": 52.90 }
+
+###
+GET {{api}}/api/vitrine/em-fila
+
+###
+GET {{api}}/api/vitrine/juntas
+
+###
+GET {{api}}/api/vitrine/mesmo-contexto

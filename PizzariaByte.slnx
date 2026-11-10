@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PizzariaByte.Api/PizzariaByte.Api.csproj" />
+  <Project Path="PizzariaByte.Carga/PizzariaByte.Carga.csproj" />
+  <Project Path="PizzariaByte.Cozinha/PizzariaByte.Cozinha.csproj" />
+</Solution>
